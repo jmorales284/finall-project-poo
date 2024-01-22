@@ -1,6 +1,5 @@
-1234 1234 1234 1234 1234 1243 1243 0
-asdf sdf ssfd sdf sdfs fd sdf 0
-asf asdf asdf asdf asdf asdf af 0
-asdf asdf asdf asdf asdf asdf asdf 0
-9876 pereira cali mor115 juan 11:30 22/04/23 0
-8374192834 asdf asdfa sdf asfd asdf asdf 1
+123456 pasto pereira mor115 carlos 11:30 23/09/24 1
+98765 bog med cuy123 miguel 13:11 10/11/23 1
+777 ibague bogota 333 pepe 1234 1324 1
+999 kjh kjh kjh kjh kjh kjh 1
+1234 pereira medellin 1234 juan 11:30 23/03/24 0

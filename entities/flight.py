@@ -30,6 +30,8 @@ class Flight:
         return self.__flightDate
     def getStatus(self):
         return self.__status
+    def getPassengerList(self):
+        return self.__passengerList
     # Setters
     def setFlightNumber(self, newFlightNumber):
         self.__flightNumber = newFlightNumber
@@ -53,26 +55,5 @@ class Flight:
     def addToTheList(self, passenger):
         self.__passengerList.append(passenger)
 
-    def PassengersFlights(self, searchFlightNumber):
-        passengersInFlight = []
-        if self.__flightNumber == searchFlightNumber:
-            for passenger in self.__passengerList:
-                passengersInFlight.append(passenger)
-        return passengersInFlight
-
-    def removePassenger(self, passenger_id):
-        for passenger in self.__passengerList:
-            if passenger.getID() == passenger_id:
-                self.__passengerList.remove(passenger)
-                return f"Passenger {passenger.getName()} removed from the flight."
-        return "Passenger not found in the flight."
-
-    def searchPassenger(self, passenger_id):
-        for passenger in self.__passengerList:
-            if passenger.getID() == passenger_id:
-                return passenger
-        return "Passenger not found in the flight."
     
-    def calculateTotalPassengers(self):
-        return len(self.__passengerList)
     
